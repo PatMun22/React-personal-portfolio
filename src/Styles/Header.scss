@@ -1,0 +1,9 @@
+@import '../Styles/Variables.scss';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $header-hero-bg;
+    padding: 0 3rem;
+}

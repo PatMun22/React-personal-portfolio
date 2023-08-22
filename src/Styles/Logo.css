@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #F0F5F2;
+  gap: 0.21rem;
+}
+.logo .logo-initials {
+  border: 2px solid #50D484;
+  border-radius: 100%;
+  font-size: 22px;
+  padding: 15px 3px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  color: #50D484;
+}
+.logo .logo-head {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}

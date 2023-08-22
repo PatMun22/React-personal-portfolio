@@ -1,0 +1,24 @@
+@import '../Styles/Variables.scss';
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $text-white;
+    gap: .21rem;
+
+    .logo-initials {
+        border: 2px solid $highlight;
+        border-radius: 100%;
+        font-size: 22px;
+        padding: 15px 3px;
+        font-family: $logo-head;
+        font-weight: 600;
+        color: $highlight;
+    }
+
+    .logo-head {
+        font-family: $logo-head;
+        font-size: 30px;
+    }
+}

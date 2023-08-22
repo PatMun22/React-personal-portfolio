@@ -1,0 +1,56 @@
+@import '../Styles/Variables.scss';
+
+.search {
+    display: flex;
+
+    
+    form{
+        display: flex;
+        gap: 0;
+        align-items: center;
+        position: relative;
+
+        .search-icon {
+            font-size: 30px;
+            color: $text-white;
+            position: absolute;
+            left: 5px;
+            top: 7px;
+            z-index: 100;
+            transform: rotate(-15deg);
+            align-self: center;
+        }
+
+        input {
+            border: 1.5px solid $highlight;
+            padding: 8px 50px;
+            border-radius: 5px 0 0 5px;
+            position: relative;
+            outline: none;
+            font-size: 20px;
+            color: $text-white;
+            background-color: inherit;
+        }
+
+        ::placeholder{
+            color: $text-white;
+            font-size: 18px;
+        }
+
+        .btn {
+            border: none;
+            background-color: $highlight;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5.5px 5px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+
+            .btn-icon {
+                font-size: 30px;
+                color: $text-white;
+            }
+        }
+    }
+}

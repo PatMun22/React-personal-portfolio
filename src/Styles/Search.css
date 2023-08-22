@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.search {
+  display: flex;
+}
+.search form {
+  display: flex;
+  gap: 0;
+  align-items: center;
+  position: relative;
+}
+.search form .search-icon {
+  font-size: 30px;
+  color: #F0F5F2;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  z-index: 100;
+  transform: rotate(-15deg);
+  align-self: center;
+}
+.search form input {
+  border: 1.5px solid #50D484;
+  padding: 8px 50px;
+  border-radius: 5px 0 0 5px;
+  position: relative;
+  outline: none;
+  font-size: 20px;
+  color: #F0F5F2;
+  background-color: inherit;
+}
+.search form ::-moz-placeholder {
+  color: #F0F5F2;
+  font-size: 18px;
+}
+.search form ::placeholder {
+  color: #F0F5F2;
+  font-size: 18px;
+}
+.search form .btn {
+  border: none;
+  background-color: #50D484;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.5px 5px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search form .btn .btn-icon {
+  font-size: 30px;
+  color: #F0F5F2;
+}
