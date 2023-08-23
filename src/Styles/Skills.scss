@@ -1,0 +1,8 @@
+@import '../Styles/Variables.scss';
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    background-color: $header-hero-bg;
+}

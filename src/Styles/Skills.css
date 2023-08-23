@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
-.header {
+.skills-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #07111f;
+  flex-direction: column;
   padding: 0 3rem;
+  background-color: #07111f;
 }

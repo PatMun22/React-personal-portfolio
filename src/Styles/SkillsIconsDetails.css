@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.skills-icon-container {
+  padding: 0 3rem;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.skills-icon-container .icon-container {
+  padding: 5em 3rem;
+  border-radius: 1em;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-icon-container .icon-container .icon {
+  color: rgba(240, 245, 242, 0.7);
+  font-size: 5rem;
+}
+.skills-icon-container .icon-container .icon-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(240, 245, 242, 0.1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+.skills-icon-container .icon-container .icon-details .icon-title {
+  color: rgba(240, 245, 242, 0.7);
+  text-align: center;
+}
+.skills-icon-container .icon-container .icon-details .skill-experience {
+  display: block;
+  height: 1rem;
+  width: 90%;
+  background-color: rgba(7, 17, 31, 0.7);
+  border-radius: 3em;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+}
+.skills-icon-container .icon-container .icon-details .skill-experience .skill-rating {
+  height: inherit;
+  width: 95%;
+  background-color: rgba(240, 245, 242, 0.4);
+  border-radius: inherit;
+}
+.skills-icon-container .icon-container .icon-details:hover .icon-details {
+  left: 0;
+}

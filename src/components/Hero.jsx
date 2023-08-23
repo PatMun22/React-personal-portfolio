@@ -4,6 +4,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { AiFillInstagram } from 'react-icons/ai';
 import '../Styles/Hero.css';
+import PatUlt from '../images/PatUlt.jpg';
 
 const Hero = () => {
   return (
@@ -32,8 +33,11 @@ const Hero = () => {
         </div>
         <div className='hero-right'>
             <div className='image-container'>
+                <img src={PatUlt} alt='profile' />
             </div>
         </div>
+        <div className='overlay one'></div>
+        <div className='overlay two'></div>
     </div>
   )
 };

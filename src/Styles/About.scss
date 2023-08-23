@@ -1,0 +1,43 @@
+@import '../Styles/Variables.scss';
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    background-color: $light-bg;
+    padding: 0 3rem;
+
+    .about-image-container {
+        background: $highlight;
+        margin-top: 2rem;
+        border: none;
+        border-radius: 15px 15px 0 0;
+
+        img {
+            height: auto;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    .about-content {
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1{
+            color: $text-white;
+            font-family: $text-font;
+            letter-spacing: .4rem;
+            font-weight: 700;
+        }
+
+        p{
+            color: $text-white;
+            font-family: $text-font;
+            font-size: 20px;
+            text-align: justify;
+        }
+    }
+}

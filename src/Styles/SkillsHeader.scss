@@ -1,0 +1,23 @@
+@import '../Styles/Variables.scss';
+
+.skills-details {
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .skills-title {
+        color: $text-white;
+        font-family: $text-font;
+        font-size: 3rem;
+    }
+
+    .skills-details {
+        color: $text-white;
+        font-family: $text-font;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: -2rem;
+    }
+}
