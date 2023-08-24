@@ -1,0 +1,23 @@
+@import '../Styles/Variables.scss';
+
+.projects-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .projects-title{
+        color: $text-white;
+        font-family: $text-font;
+        font-size: 3rem;
+
+    }
+
+    .projects-intro {
+        color: $text-white;
+        font-family: $text-font;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: -1.5rem;
+    }
+}

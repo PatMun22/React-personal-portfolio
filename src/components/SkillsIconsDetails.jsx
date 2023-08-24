@@ -7,7 +7,6 @@ import { DiSass } from 'react-icons/di';
 import { BiLogoJavascript } from 'react-icons/bi';
 import { BiLogoJquery } from 'react-icons/bi';
 import { BiLogoReact } from 'react-icons/bi';
-
 import '../Styles/SkillsIconsDetails.css';
 
 function SkillsIconsDetails() {
@@ -18,8 +17,8 @@ function SkillsIconsDetails() {
             <div className="icon-details">
                 <h3 className="icon-title">HTML5</h3>
                 <div className="skill-experience">
-                <div className="skill-rating">
-                </div>
+                    <div className="skill-rating">
+                    </div>
                 </div>
             </div>
         </div>
@@ -28,8 +27,8 @@ function SkillsIconsDetails() {
             <div className="icon-details">
                 <h3 className="icon-title">CSS3</h3>
                 <div className="skill-experience">
-                <div className="skill-rating">
-                </div>
+                    <div className="skill-rating">
+                    </div>
                 </div>
             </div>
         </div>
@@ -38,8 +37,8 @@ function SkillsIconsDetails() {
             <div className="icon-details">
                 <h3 className="icon-title">BOOTSRAP</h3>
                 <div className="skill-experience">
-                <div className="skill-rating">
-                </div>
+                    <div className="skill-rating">
+                    </div>
                 </div>
             </div>
         </div>
@@ -48,8 +47,8 @@ function SkillsIconsDetails() {
             <div className="icon-details">
                 <h3 className="icon-title">TAILWIND CSS</h3>
                 <div className="skill-experience">
-                <div className="skill-rating">
-                </div>
+                    <div className="skill-rating">
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,8 +57,8 @@ function SkillsIconsDetails() {
             <div className="icon-details">
                 <h3 className="icon-title">SASS</h3>
                 <div className="skill-experience">
-                <div className="skill-rating">
-                </div>
+                    <div className="skill-rating">
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,8 +67,8 @@ function SkillsIconsDetails() {
             <div className="icon-details">
                 <h3 className="icon-title">JAVASCRIPT</h3>
                 <div className="skill-experience">
-                <div className="skill-rating">
-                </div>
+                    <div className="skill-rating">
+                    </div>
                 </div>
             </div>
         </div>

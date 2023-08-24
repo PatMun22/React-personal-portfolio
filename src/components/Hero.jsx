@@ -8,7 +8,7 @@ import PatUlt from '../images/PatUlt.jpg';
 
 const Hero = () => {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id='home'>
         <div className='hero-left'>
             <div className='hero-left-text'>
                 <h1>Hello, <span>I'm</span><span>Patrick W. Munuku</span></h1>

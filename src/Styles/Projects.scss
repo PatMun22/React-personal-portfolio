@@ -1,0 +1,10 @@
+@import '../Styles/Variables.scss';
+
+.projects-container {
+    padding: 2rem 3rem;
+    background-color: $light-bg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
