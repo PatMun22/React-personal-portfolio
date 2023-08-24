@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.project-details-container {
+  padding: 0 3rem 2rem;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.project-details-container .project-container {
+  padding: 0 0 2rem;
+  border-radius: 1em;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 500;
+}
+.project-details-container .project-container .image-container {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 0;
+}
+.project-details-container .project-container .image-container img {
+  max-width: 100%;
+  width: 100%;
+  height: 27vw;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project-details-container .project-container .project-details h3 {
+  text-align: center;
+  color: rgba(240, 245, 242, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.project-details-container .project-container .project-details .project-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

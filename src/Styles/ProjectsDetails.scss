@@ -1,0 +1,48 @@
+@import '../Styles/Variables.scss';
+
+.project-details-container {
+    padding: 0 3rem 2rem;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    .project-container {
+        padding: 0 0 2rem;
+        border-radius: 1em;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        height: 500;
+
+        .image-container {
+            max-width: 100%;
+            width: 100%;
+            margin-top: 0;
+
+            img {
+                max-width: 100%;
+                width: 100%;
+                height: 27vw;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+
+        .project-details {
+
+            h3 {
+                text-align: center;
+                color: rgba($text-white, 0.5);
+                font-family: $text-font;
+                font-size: 1.2rem;
+            }
+
+            .project-links {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}
