@@ -19,9 +19,28 @@ const ProjectsDetails = () => {
         <div className="project-details">
           <h3 className="project-title">E-Learning Website</h3>
           <div className="project-links">
-            <a href='https://github.com/PatMun22/E-Learning-website' target="_blank" rel='noreferrer' className='github-link'>See code<span><AiFillGithub /></span></a>
-            <a href='https://patmun22.github.io/E-Learning-website/' target="_blank" rel='noreferrer' className='live-link'><FiExternalLink /> Visit site</a>
+            <a 
+              href='https://github.com/PatMun22/E-Learning-website' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='github-link'
+            >
+              See code<span><AiFillGithub /></span>
+            </a>
+            <a 
+              href='https://patmun22.github.io/E-Learning-website/' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='live-link'
+            >
+              <span><FiExternalLink /></span> Visit site
+            </a>
           </div>
+        </div>
+        <div className='tech-stack'>
+          <div className='btn'>HTML5</div>
+          <div className='btn'>CSS3</div>
+          <div className='btn'>JavaScript</div>
         </div>
       </div>
       <div className="project-container">
@@ -31,9 +50,27 @@ const ProjectsDetails = () => {
         <div className="project-details">
           <h3 className="project-title">React Note App</h3>
           <div className="project-links">
-            <a href='https://github.com/PatMun22/react-note-app' target="_blank" rel='noreferrer' className='github-link'>See code <AiFillGithub /></a>
-            <a href='https://chinookz-react-notes-app.netlify.app/' target="_blank" rel='noreferrer' className='live-link'><FiExternalLink /> Visit site</a>
+            <a 
+              href='https://github.com/PatMun22/react-note-app' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='github-link'
+            >
+              See code<span><AiFillGithub /></span>
+            </a>
+            <a 
+              href='https://chinookz-react-notes-app.netlify.app/' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='live-link'
+            >
+              <span><FiExternalLink /></span> Visit site
+            </a>
           </div>
+        </div>
+        <div className='tech-stack'>
+          <div className='btn'>Sass</div>
+          <div className='btn'>React.js</div>
         </div>
       </div>
       <div className="project-container">
@@ -43,9 +80,27 @@ const ProjectsDetails = () => {
         <div className="project-details">
           <h3 className="project-title">React Cart App</h3>
           <div className="project-links">
-            <a href='https://github.com/PatMun22/React-cart-app' target="_blank" rel='noreferrer' className='github-link'>See code <AiFillGithub /></a>
-            <a href='https://first-react-cart-app.netlify.app/' target="_blank" rel='noreferrer' className='live-link'><FiExternalLink />Visit site</a>
+            <a 
+              href='https://github.com/PatMun22/React-cart-app' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='github-link'
+            >
+              See code<span><AiFillGithub /></span>
+            </a>
+            <a 
+              href='https://first-react-cart-app.netlify.app/' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='live-link'
+            >
+              <span><FiExternalLink /></span>Visit site
+            </a>
           </div>
+        </div>
+        <div className='tech-stack'>
+          <div className='btn'>Bootstrap</div>
+          <div className='btn'>React.js</div>
         </div>
       </div>
       <div className="project-container">
@@ -55,9 +110,28 @@ const ProjectsDetails = () => {
         <div className="project-details">
           <h3 className="project-title">Login/Registration Form</h3>
           <div className="project-links">
-            <a href='https://github.com/PatMun22/Registration-Login-form-with-JS' target="_blank" rel='noreferrer' className='github-link'>See code <AiFillGithub /></a>
-            <a href='https://registration-login-form-with-js.netlify.app/' target="_blank" rel='noreferrer' className='live-link'><FiExternalLink />Visit site</a>
+            <a 
+              href='https://github.com/PatMun22/Registration-Login-form-with-JS' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='github-link'
+            >
+              See code<span><AiFillGithub /></span>
+            </a>
+            <a 
+              href='https://registration-login-form-with-js.netlify.app/' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='live-link'
+            >
+              <span><FiExternalLink /></span>Visit site
+            </a>
           </div>
+        </div>
+        <div className='tech-stack'>
+          <div className='btn'>HTML5</div>
+          <div className='btn'>CSS3</div>
+          <div className='btn'>JavaScript</div>
         </div>
       </div>
       <div className="project-container">
@@ -67,9 +141,28 @@ const ProjectsDetails = () => {
         <div className="project-details">
           <h3 className="project-title">Age Calculator</h3>
           <div className="project-links">
-            <a href='https://github.com/PatMun22/Age-Calculator' target="_blank" rel='noreferrer' className='github-link'>See code <AiFillGithub /></a>
-            <a href='https://patmun22.github.io/Age-Calculator/' target="_blank" rel='noreferrer' className='live-link'><FiExternalLink />Visit site</a>
+            <a 
+              href='https://github.com/PatMun22/Age-Calculator' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='github-link'
+            >
+              See code<span><AiFillGithub /></span>
+            </a>
+            <a 
+              href='https://patmun22.github.io/Age-Calculator/' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='live-link'
+            >
+              <span><FiExternalLink /></span>Visit site
+            </a>
           </div>
+        </div>
+        <div className='tech-stack'>
+          <div className='btn'>HTML5</div>
+          <div className='btn'>CSS3</div>
+          <div className='btn'>JavaScript</div>
         </div>
       </div>
       <div className="project-container">
@@ -79,9 +172,28 @@ const ProjectsDetails = () => {
         <div className="project-details">
           <h3 className="project-title">Resume App</h3>
           <div className="project-links">
-            <a href='https://github.com/PatMun22/CV-using-Sass-and-Js' target="_blank" rel='noreferrer' className='github-link'>See code <AiFillGithub /></a>
-            <a href='https://patmun22.github.io/CV-using-Sass-and-Js/' target="_blank" rel='noreferrer' className='live-link'><FiExternalLink />Visit site</a>
+            <a 
+              href='https://github.com/PatMun22/CV-using-Sass-and-Js' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='github-link'
+            >
+              See code<span><AiFillGithub /></span>
+            </a>
+            <a 
+              href='https://patmun22.github.io/CV-using-Sass-and-Js/' 
+              target="_blank" 
+              rel='noreferrer' 
+              className='live-link'
+            >
+              <span><FiExternalLink /></span>Visit site
+            </a>
           </div>
+        </div>
+        <div className='tech-stack'>
+          <div className='btn'>HTML5</div>
+          <div className='btn'>Sass</div>
+          <div className='btn'>JavaScript</div>
         </div>
       </div>
     </div>

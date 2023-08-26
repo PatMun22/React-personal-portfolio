@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.contact-left {
+  width: 49%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 2rem 0;
+}
+.contact-left .left-contact-container {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #07111f;
+  padding: 5px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(240, 245, 242, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact-left .left-contact-container h1 {
+  color: #F0F5F2;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+.contact-left .left-contact-container p {
+  color: rgba(240, 245, 242, 0.3);
+  font-size: 18px;
+}
+.contact-left .left-contact-container p:nth-of-type(2) {
+  background: #07111f;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(240, 245, 242, 0.2);
+  padding: 1px 4px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.contact-left .left-contact-container p:nth-of-type(2):hover {
+  transform: scale(1.1);
+  color: rgba(240, 245, 242, 0.4);
+}

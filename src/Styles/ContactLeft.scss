@@ -1,0 +1,51 @@
+@import '../Styles/Variables.scss';
+
+.contact-left {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin: 2rem 0;
+
+    .left-contact-container {
+        width: fit-content;
+        background-color: $header-hero-bg;
+        padding: 5px 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px rgba($text-white, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+
+        h1 {
+            color: $text-white;
+            font-size: 22px;
+            font-family: $text-font;
+        }
+
+        p{
+            color: rgba($text-white, 0.3);
+            font-size: 18px;
+        }
+
+        p:nth-of-type(2) {
+            background: $header-hero-bg;
+            width: fit-content;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba($text-white, 0.2);
+            padding: 1px 4px;
+            transition: 0.5s ease-in-out;
+            cursor: pointer;
+        }
+
+        p:nth-of-type(2):hover {
+            transform: scale(1.1);
+            color: rgba($text-white, 0.4);
+        }
+    }
+}

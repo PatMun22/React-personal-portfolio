@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.contact-right {
+  width: 49%;
+  margin-left: 2rem;
+}
+.contact-right .right-details h2 {
+  color: rgba(240, 245, 242, 0.5);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-left: 1rem;
+  font-weight: 300;
+}
+.contact-right .right-details p {
+  color: rgba(80, 212, 132, 0.5);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: 1rem;
+  letter-spacing: 0.1rem;
+}
+.contact-right form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.contact-right form input {
+  display: block;
+  outline: none;
+  border: none;
+  width: 60%;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+}
+.contact-right form textarea {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.contact-right form ::-moz-placeholder {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.contact-right form ::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.contact-right form .submit-form {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 12px;
+  font-size: 20px;
+  background-color: rgba(7, 17, 31, 0.7);
+  border: none;
+  outline: none;
+  color: rgba(240, 245, 242, 0.3);
+  box-shadow: 0 0 2px rgba(240, 245, 242, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}

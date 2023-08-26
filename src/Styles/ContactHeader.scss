@@ -1,0 +1,17 @@
+@import '../Styles/Variables.scss';
+
+.contact-header {
+
+    h3{
+        color: $text-white;
+        text-align: center;
+        font-family: $text-font;
+    }
+
+    p{
+        color: $text-white;
+        text-align: center;
+        font-size: 18px;
+        font-family: $text-font;
+    }
+}

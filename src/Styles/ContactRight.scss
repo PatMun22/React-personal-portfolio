@@ -1,0 +1,80 @@
+@import '../Styles/Variables.scss';
+
+.contact-right {
+    width: 49%;
+    margin-left: 2rem;
+
+    .right-details{
+
+        h2 {
+            color: rgba($text-white, 0.5);
+            font-family: $text-font;
+            text-transform: capitalize;
+            font-size: 16px;
+            margin-left: 1rem;
+            font-weight: 300;
+        }
+
+        p{
+            color: rgba($highlight, 0.5);
+            font-family: $text-font;
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: 600;
+            word-spacing: 1rem;
+            letter-spacing: .1rem;
+        }
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-direction: column;
+
+
+        input {
+            display: block;
+            outline: none;
+            border: none;
+            width: 60%;
+            border-radius: 20px;
+            padding: 10px;
+            font-family: $text-font;
+            color: rgba(0,0,0, 0.8);
+            font-size: 18px;
+        }
+
+        textarea {
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: $text-font;
+            font-size: 18px;
+            color: rgba(0,0,0,0.8);
+        }
+
+        ::placeholder {
+            font-family: $text-font;
+            color: rgba(0,0,0,0.8);
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        .submit-form {
+            width: fit-content;
+            padding: 8px 12px;
+            font-size: 20px;
+            background-color: rgba($header-hero-bg, .7);
+            border: none;
+            outline: none;
+            color: rgba($text-white, 0.3);
+            box-shadow: 0 0 2px rgba($text-white, 0.5);
+            border-radius: 5px;
+            cursor: pointer;
+
+
+        }
+    }
+}
