@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.footer-icons a {
+  font-size: 1.8rem;
+  transition: 0.5s ease-in-out;
+}
+.footer-icons a:hover {
+  transform: scale(1.2);
+}
+.footer-icons a:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.9);
+}
+.footer-icons a:nth-of-type(2) {
+  color: rgb(51, 47, 245);
+}
+.footer-icons a:nth-of-type(3) {
+  color: rgba(46, 43, 241, 0.911);
+}
+.footer-icons a:nth-of-type(4) {
+  color: rgba(149, 7, 161, 0.911);
+}

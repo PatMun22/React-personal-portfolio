@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
+.footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #101525;
+  gap: 4rem;
+  border-bottom: 1.5px solid #101525;
+  width: 50%;
+  margin-left: 25%;
+}
+.footer-top .footer-initials {
+  border: 2px solid #101525;
+  border-radius: 100%;
+  font-size: 25px;
+  padding: 15px 3px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+}
+.footer-top .footer-head {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}

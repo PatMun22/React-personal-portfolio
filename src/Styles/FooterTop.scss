@@ -1,0 +1,26 @@
+@import '../Styles/Variables.scss';
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $light-bg;
+    gap: 4rem;
+    border-bottom: 1.5px solid $light-bg;
+    width: 50%;
+    margin-left: 25%;
+
+    .footer-initials {
+        border: 2px solid $light-bg;
+        border-radius: 100%;
+        font-size: 25px;
+        padding: 15px 3px;
+        font-family: $logo-head;
+        font-weight: 600;
+    }
+
+    .footer-head {
+        font-family: $logo-head;
+        font-size: 30px;
+    }
+}

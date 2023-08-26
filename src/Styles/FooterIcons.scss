@@ -1,0 +1,33 @@
+@import '../Styles/Variables.scss';
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    a{
+        font-size: 1.8rem;
+        transition: .5s ease-in-out;
+    }
+
+    a:hover {
+        transform: scale(1.2);
+    }
+
+    a:nth-of-type(1) {
+        color: rgba(0,0,0,0.9);
+    }
+
+    a:nth-of-type(2) {
+        color: rgb(51, 47, 245);
+    }
+
+    a:nth-of-type(3) {
+        color: rgba(46, 43, 241, 0.911);
+    }
+
+    a:nth-of-type(4) {
+        color: rgba(149, 7, 161, 0.911);
+    }
+}
