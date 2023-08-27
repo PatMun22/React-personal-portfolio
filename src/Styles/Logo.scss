@@ -22,3 +22,10 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .logo {
+        width: 100%;
+        padding: 0 1.5rem;
+    }
+}

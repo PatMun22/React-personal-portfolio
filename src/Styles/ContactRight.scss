@@ -78,3 +78,31 @@
         }
     }
 }
+
+@media screen and (max-width: 650px) {
+    .contact-right {
+        width: 100%;
+        margin-left: 0;
+
+        .right-details{
+            position: relative;
+
+            h2, p {
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+
+        form {
+                
+            input {
+                width: 100%;
+            }
+
+            .submit-form {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}

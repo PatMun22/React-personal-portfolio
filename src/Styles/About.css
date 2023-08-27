@@ -35,3 +35,14 @@
   font-size: 20px;
   text-align: justify;
 }
+
+@media screen and (max-width: 650px) {
+  .about {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  .about .about-content h1 {
+    text-align: center;
+  }
+}

@@ -15,3 +15,13 @@
         font-family: $text-font;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .contact-header {
+    
+        p{
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+    }
+}

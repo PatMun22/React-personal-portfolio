@@ -10,3 +10,10 @@
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
+
+@media screen and (max-width: 650px) {
+  .contact-header p {
+    text-align: justify;
+    font-size: 1.1rem;
+  }
+}

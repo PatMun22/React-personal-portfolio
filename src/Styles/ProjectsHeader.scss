@@ -21,3 +21,18 @@
         margin-top: -1.5rem;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .projects-header-container {
+    
+        .projects-title{
+            font-size: 1.8rem;
+        }
+    
+        .projects-intro {
+            text-align: justify;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+    }
+}

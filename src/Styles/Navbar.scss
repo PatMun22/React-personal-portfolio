@@ -34,3 +34,18 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        position: fixed;
+        bottom: 5rem;
+        left: 50%;
+        width: 80%;
+        padding: 0 1.5rem;
+        border-radius: 30px;
+        z-index: 100;
+        background-color: $light-bg;
+        box-shadow: 0 0 3px rgba($text-white, 0.7);
+        transform: translateX(-50%);
+    }
+}

@@ -123,8 +123,8 @@
 
             border: none;
             border-radius: 100%;
-            height: 27rem;
-            width: 27rem;
+            height: 20rem;
+            width: 90%;
             margin-top: -3rem;
             display: flex;
             align-items: end;
@@ -136,6 +136,7 @@
                 max-width: 100%;
                 height: auto;
                 border-radius: 100%;
+                display: block;
             }
         }
 
@@ -150,6 +151,24 @@
             top: 300px;
             left: 250px;
             background: rgba($highlight, 0.4);
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+        padding: 0 1rem;
+
+        .hero-left{
+            h1, h3{
+                text-align: center;
+            }
+
+            p{
+                text-align: justify;
+            }
         }
     }
 }

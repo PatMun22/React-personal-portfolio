@@ -35,3 +35,11 @@
   font-weight: 400;
   color: rgba(7, 17, 31, 0.9);
 }
+
+@media screen and (max-width: 650px) {
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

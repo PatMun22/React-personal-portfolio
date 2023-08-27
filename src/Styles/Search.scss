@@ -54,3 +54,18 @@
         }
     }
 }
+
+@media screen and (max-width: 650px) {
+    .search {
+        align-items: center;
+
+        form {
+            width: 90%;
+            margin: 0 auto;
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}

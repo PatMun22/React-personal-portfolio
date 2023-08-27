@@ -6,3 +6,9 @@
     padding: 0 3rem;
     background-color: $header-hero-bg;
 }
+
+@media screen and (max-width: 650px) {
+    .skills-container {
+        padding: 0 1rem;
+    }
+}

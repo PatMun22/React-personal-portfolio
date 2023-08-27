@@ -18,3 +18,17 @@
   font-size: 1.5rem;
   margin-top: -2rem;
 }
+
+@media screen and (max-width: 650px) {
+  .skills-details {
+    padding: 0 1rem;
+  }
+  .skills-details .skills-title {
+    font-size: 1.5rem;
+  }
+  .skills-details .skills-details {
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+}

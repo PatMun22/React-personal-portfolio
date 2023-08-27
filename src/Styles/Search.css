@@ -50,3 +50,16 @@
   font-size: 30px;
   color: #F0F5F2;
 }
+
+@media screen and (max-width: 650px) {
+  .search {
+    align-items: center;
+  }
+  .search form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .search form input {
+    width: 100%;
+  }
+}

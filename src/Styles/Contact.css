@@ -3,3 +3,9 @@
   background-color: #07111f;
   padding: 3rem;
 }
+
+@media screen and (max-width: 650px) {
+  .contacts {
+    padding: 1rem;
+  }
+}
