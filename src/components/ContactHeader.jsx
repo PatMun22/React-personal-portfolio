@@ -8,7 +8,7 @@ const ContactHeader = () => {
         <h3>My <span>Contacts</span></h3>
         <div className='right-details'>
           <h2>Get in touch</h2>
-          <p>contact me</p>
+          <p>contact me via: </p>
         </div>
     </div>
   )

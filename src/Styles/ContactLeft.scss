@@ -91,3 +91,12 @@
         }
     }
 }
+
+@media screen and (max-width: 650px) {
+    .contact-left {
+    
+        .left-contact-container:nth-of-type(2) {
+            padding: 5px 50px;
+        }
+    }
+}

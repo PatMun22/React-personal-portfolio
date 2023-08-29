@@ -5,10 +5,10 @@ import '../Styles/Projects.css';
 
 const Projects = () => {
   return (
-    <div className='projects-container' id='projects'>
+    <section className='projects-container' id='projects'>
         <ProjectsHeader />
         <ProjectsDetails />
-    </div>
+    </section>
   )
 };
 

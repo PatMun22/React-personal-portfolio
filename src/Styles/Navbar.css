@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 15px;
 }
 .navbar ul li {
   list-style: none;
@@ -20,6 +21,10 @@
   color: #F0F5F2;
   font-size: 20px;
   transition: 0.5s ease-in-out;
+}
+.navbar ul li a .nav-icon {
+  display: none;
+  font-size: 1.5rem;
 }
 .navbar ul li a.active {
   color: #50D484;
@@ -37,7 +42,7 @@
     position: fixed;
     bottom: 5rem;
     left: 50%;
-    width: 80%;
+    width: 90%;
     padding: 0 5px;
     border-radius: 30px;
     z-index: 100;
@@ -51,5 +56,11 @@
   }
   .navbar ul li a {
     font-size: 16px;
+  }
+  .navbar ul li a span {
+    display: none;
+  }
+  .navbar ul li a .nav-icon {
+    display: block;
   }
 }

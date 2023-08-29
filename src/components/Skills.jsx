@@ -5,10 +5,10 @@ import SkillsIconsDetails from './SkillsIconsDetails';
 
 function Skills() {
   return (
-    <div className='skills-container' id='skills'>
+    <section className='skills-container' id='skills'>
       <SkillsHeader />
       <SkillsIconsDetails />
-    </div>
+    </section>
   )
 }
 

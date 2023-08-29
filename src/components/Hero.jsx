@@ -3,12 +3,14 @@ import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { AiFillInstagram } from 'react-icons/ai';
+import { AiOutlineDownload } from 'react-icons/ai';
+import CV from '../Assets/My Curriculum Vitaef.pdf';
 import '../Styles/Hero.css';
 import PatUlt from '../images/PatUlt.jpg';
 
 const Hero = () => {
   return (
-    <div className='hero-container' id='home'>
+    <section className='hero-container' id='home'>
         <div className='hero-left'>
             <div className='hero-left-text'>
                 <h1>Hello, <span>I'm</span><span>Patrick W. Munuku</span></h1>
@@ -21,7 +23,14 @@ const Hero = () => {
                 </p>
             </div>
             <div className='hero-left-buttons'>
-                <button className='hero-btn' type='button'>Let's Talk</button>
+                <div className='button-div'>
+                    <button className='hero-btn' type='button'>
+                        <a href='#contacts'>Let's Talk</a>
+                    </button>
+                    <button className='hero-btn' type='button'>
+                        <a href={CV} download><AiOutlineDownload className='down-icon'/>CV</a>
+                    </button>
+                </div>    
                 <div className='icons-div'>
                     <p>Check out my: </p>
                     <a href='https://github.com/PatMun22' target='_blank' rel='noreferrer'><AiFillGithub className='social-icons'/></a>
@@ -38,7 +47,7 @@ const Hero = () => {
         </div>
         <div className='overlay one'></div>
         <div className='overlay two'></div>
-    </div>
+    </section>
   )
 };
 

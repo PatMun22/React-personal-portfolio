@@ -5,10 +5,10 @@ import ContactDetails from './ContactDetails';
 
 const Contact = () => {
   return (
-    <div className='contacts' id='contacts'>
+    <section className='contacts' id='contacts'>
       <ContactHeader />
       <ContactDetails />  
-    </div>
+    </section>
   )
 };
 

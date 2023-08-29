@@ -6,8 +6,7 @@ const SkillsHeader = () => {
     <div className="skills-details">
       <h1 className="skills-title">My <span>Skills</span></h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur 
-        adipisicing elit. Distinctio, optio?
+        I am proficient in these skills
       </p>
     </div>
   )

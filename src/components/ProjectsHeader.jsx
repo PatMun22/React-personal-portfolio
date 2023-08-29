@@ -6,9 +6,7 @@ const ProjectsHeader = () => {
     <div className='projects-header-container'>
       <h1 className='projects-title'>My <span>Projects</span></h1>
       <p className='projects-intro'>
-        Lorem, ipsum dolor sit amet consectetur adipisicing 
-        elit. Sint commodi vitae perferendis quis consequatur 
-        facere et iusto modi tempore exercitationem.
+        Check out some of my recent projects
       </p>
     </div>
   )

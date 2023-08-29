@@ -4,7 +4,7 @@ import '../Styles/About.css';
 
 const About = () => {
   return (
-    <div className='about' id='about'>
+    <section className='about' id='about'>
         <div className="about-image-container">
             <img src={PatUlt} alt="about" />
         </div>
@@ -16,7 +16,7 @@ const About = () => {
                 laudantium voluptates?
             </p>
         </div>
-    </div>
+    </section>
   )
 };
 

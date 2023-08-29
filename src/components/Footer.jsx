@@ -7,12 +7,12 @@ import FooterBottom from './FooterBottom';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <section className='footer'>
         <FooterTop />
         <FooterLinks />
         <FooterIcons />
         <FooterBottom />
-    </div>
+    </section>
   )
 };
 
