@@ -5,12 +5,11 @@ import '../Styles/ContactHeader.css';
 const ContactHeader = () => {
   return (
     <div className='contact-header'>
-        <h3>My Contacts</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Corporis enim reprehenderit consequatur temporibus dicta 
-            pariatur, placeat cumque id fugit dolorum?
-        </p>
+        <h3>My <span>Contacts</span></h3>
+        <div className='right-details'>
+          <h2>Get in touch</h2>
+          <p>contact me</p>
+        </div>
     </div>
   )
 };

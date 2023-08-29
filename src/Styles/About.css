@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 .about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+  display: flex;
+  gap: 10%;
   background-color: #101525;
   padding: 0 3rem;
 }
@@ -11,23 +10,33 @@
   margin-top: 2rem;
   border: none;
   border-radius: 15px 15px 0 0;
+  width: 40%;
 }
 .about .about-image-container img {
   height: auto;
   max-width: 100%;
   width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .about .about-content {
   height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 50%;
 }
 .about .about-content h1 {
   color: #F0F5F2;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.4rem;
   font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: -0.5rem;
+}
+.about .about-content h1 span {
+  color: #50D484;
 }
 .about .about-content p {
   color: #F0F5F2;
@@ -38,9 +47,15 @@
 
 @media screen and (max-width: 650px) {
   .about {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 2rem;
     padding: 0 1rem;
+  }
+  .about .about-image-container {
+    display: none;
+  }
+  .about .about-content {
+    width: 100%;
   }
   .about .about-content h1 {
     text-align: center;

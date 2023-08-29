@@ -3,23 +3,6 @@
   width: 49%;
   margin-left: 2rem;
 }
-.contact-right .right-details h2 {
-  color: rgba(240, 245, 242, 0.5);
-  font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
-  font-size: 16px;
-  margin-left: 1rem;
-  font-weight: 300;
-}
-.contact-right .right-details p {
-  color: rgba(80, 212, 132, 0.5);
-  font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
-  font-size: 20px;
-  font-weight: 600;
-  word-spacing: 1rem;
-  letter-spacing: 0.1rem;
-}
 .contact-right form {
   display: flex;
   justify-content: center;
@@ -70,18 +53,16 @@
   box-shadow: 0 0 2px rgba(240, 245, 242, 0.5);
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.contact-right form .submit-form:hover {
+  background-color: rgba(16, 21, 37, 0.8);
+  box-shadow: 0px 0px 3px rgba(240, 245, 242, 0.6);
 }
 
 @media screen and (max-width: 650px) {
   .contact-right {
     width: 100%;
-    margin-left: 0;
-  }
-  .contact-right .right-details {
-    position: relative;
-  }
-  .contact-right .right-details h2, .contact-right .right-details p {
-    text-align: center;
     margin-left: 0;
   }
   .contact-right form input {

@@ -3,12 +3,32 @@
   color: #F0F5F2;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
-.contact-header p {
-  color: #F0F5F2;
-  text-align: center;
-  font-size: 18px;
+.contact-header h3 span {
+  color: #50D484;
+}
+.contact-header .right-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-header .right-details h2 {
+  color: rgba(240, 245, 242, 0.5);
   font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 300;
+}
+.contact-header .right-details p {
+  color: rgba(80, 212, 132, 0.5);
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 @media screen and (max-width: 650px) {

@@ -6,14 +6,15 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 .project-details-container .project-container {
-  padding: 0 0 2rem;
+  padding: 1rem;
   border-radius: 1em;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 500;
+  transition: 0.5s ease-in-out;
 }
 .project-details-container .project-container .image-container {
   max-width: 100%;
@@ -23,11 +24,10 @@
 .project-details-container .project-container .image-container img {
   display: block;
   max-width: 100%;
-  width: 100%;
-  height: 27vw;
-  height: auto;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 1em;
 }
 .project-details-container .project-container .project-details h3 {
   text-align: center;
@@ -70,4 +70,9 @@
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
   color: rgba(240, 245, 242, 0.7);
   margin-top: 1rem;
+}
+.project-details-container .project-container:hover {
+  background-color: rgba(16, 21, 37, 0.7);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  transform: scale(1.02);
 }

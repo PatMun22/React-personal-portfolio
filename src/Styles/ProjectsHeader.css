@@ -8,13 +8,17 @@
 .projects-header-container .projects-title {
   color: #F0F5F2;
   font-family: "Poppins", sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+.projects-header-container .projects-title span {
+  color: #50D484;
 }
 .projects-header-container .projects-intro {
   color: #F0F5F2;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: -1.5rem;
 }
 

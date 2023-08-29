@@ -1,22 +1,25 @@
 @import '../Styles/Variables.scss';
 
 .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    display: flex;
+    gap: 10%;
     background-color: $light-bg;
     padding: 0 3rem;
+
 
     .about-image-container {
         background: $highlight;
         margin-top: 2rem;
         border: none;
         border-radius: 15px 15px 0 0;
+        width: 40%;
 
         img {
             height: auto;
             max-width: 100%;
             width: 100%;
+            display: block;
+            object-fit: cover;
         }
     }
 
@@ -25,12 +28,19 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 50%;
 
         h1{
             color: $text-white;
             font-family: $text-font;
             letter-spacing: .4rem;
             font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: -.5rem;
+
+            span {
+                color: $highlight;
+            }
         }
 
         p{
@@ -44,12 +54,16 @@
 
 @media screen and (max-width: 650px) {
     .about {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 2rem;
         padding: 0 1rem;
 
+        .about-image-container {
+            display: none;
+        }
         .about-content {
-    
+            width: 100%;
+            
             h1{
                 text-align: center;
             }

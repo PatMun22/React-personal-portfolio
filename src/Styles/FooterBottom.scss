@@ -1,7 +1,8 @@
 @import '../Styles/Variables.scss';
 
 .footer-bottom {
-    display: block;
+    display: flex;
+    align-items: center;
     border-top: 1.5px solid $light-bg;
     margin: 1rem auto 0;
 
@@ -10,5 +11,17 @@
         color: rgba($light-bg, 0.8);
         text-align: center;
         font-family: $logo-head;
+        display: flex;
+
+        span {
+            
+            .copyright {
+                display: flex;
+                font-size: 16px;
+                color: rgba($light-bg, 0.8);
+                font-family: $logo-head;
+
+            }
+        }
     }
 }

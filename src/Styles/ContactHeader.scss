@@ -6,13 +6,36 @@
         color: $text-white;
         text-align: center;
         font-family: $text-font;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+
+        span {
+            color: $highlight;
+        }
     }
 
-    p{
-        color: $text-white;
-        text-align: center;
-        font-size: 18px;
-        font-family: $text-font;
+    .right-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            color: rgba($text-white, 0.5);
+            font-family: $text-font;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        p{
+            color: rgba($highlight, 0.5);
+            font-family: $text-font;
+            text-transform: capitalize;
+            font-size: 20px;
+            font-weight: 600;
+            word-spacing: 1rem;
+            letter-spacing: .1rem;
+        }
     }
 }
 

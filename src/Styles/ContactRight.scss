@@ -4,28 +4,6 @@
     width: 49%;
     margin-left: 2rem;
 
-    .right-details{
-
-        h2 {
-            color: rgba($text-white, 0.5);
-            font-family: $text-font;
-            text-transform: capitalize;
-            font-size: 16px;
-            margin-left: 1rem;
-            font-weight: 300;
-        }
-
-        p{
-            color: rgba($highlight, 0.5);
-            font-family: $text-font;
-            text-transform: capitalize;
-            font-size: 20px;
-            font-weight: 600;
-            word-spacing: 1rem;
-            letter-spacing: .1rem;
-        }
-    }
-
     form {
         display: flex;
         justify-content: center;
@@ -73,8 +51,12 @@
             box-shadow: 0 0 2px rgba($text-white, 0.5);
             border-radius: 5px;
             cursor: pointer;
+            transition: .5s ease-in-out;
+        }
 
-
+        .submit-form:hover {
+            background-color: rgba($light-bg, 0.8);
+            box-shadow: 0px 0px 3px rgba($text-white, 0.6);
         }
     }
 }
@@ -83,15 +65,6 @@
     .contact-right {
         width: 100%;
         margin-left: 0;
-
-        .right-details{
-            position: relative;
-
-            h2, p {
-                text-align: center;
-                margin-left: 0;
-            }
-        }
 
         form {
                 

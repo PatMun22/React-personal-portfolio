@@ -9,15 +9,19 @@
     .projects-title{
         color: $text-white;
         font-family: $text-font;
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
 
+        span {
+            color: $highlight;
+        }
     }
 
     .projects-intro {
         color: $text-white;
         font-family: $text-font;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: -1.5rem;
     }
 }

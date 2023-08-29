@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 .footer-bottom {
-  display: block;
+  display: flex;
+  align-items: center;
   border-top: 1.5px solid #101525;
   margin: 1rem auto 0;
 }
@@ -8,5 +9,12 @@
   font-size: 14px;
   color: rgba(16, 21, 37, 0.8);
   text-align: center;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+}
+.footer-bottom h3 span .copyright {
+  display: flex;
+  font-size: 16px;
+  color: rgba(16, 21, 37, 0.8);
   font-family: "Dancing Script", cursive;
 }

@@ -9,7 +9,7 @@ const About = () => {
             <img src={PatUlt} alt="about" />
         </div>
         <div className='about-content'>
-            <h1 className="about-title">About Me</h1>
+            <h1 className="about-title">About <span>Me</span></h1>
             <p className='about-details'>
                 Lorem ipsum dolor sit amet consectetur adipisicing
                 elit. Sint perspiciatis doloremque iusto fuga 

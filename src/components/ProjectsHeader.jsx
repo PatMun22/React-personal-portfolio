@@ -4,7 +4,7 @@ import '../Styles/ProjectsHeader.css';
 const ProjectsHeader = () => {
   return (
     <div className='projects-header-container'>
-      <h1 className='projects-title'>My Projects</h1>
+      <h1 className='projects-title'>My <span>Projects</span></h1>
       <p className='projects-intro'>
         Lorem, ipsum dolor sit amet consectetur adipisicing 
         elit. Sint commodi vitae perferendis quis consequatur 

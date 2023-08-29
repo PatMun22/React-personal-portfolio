@@ -10,15 +10,21 @@
     .skills-title {
         color: $text-white;
         font-family: $text-font;
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+
+       span {
+            color: $highlight;
+        }
     }
 
-    .skills-details {
+    p {
         color: $text-white;
         font-family: $text-font;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: -2rem;
+
     }
 }
 
