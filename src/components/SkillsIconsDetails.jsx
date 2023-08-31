@@ -1,13 +1,9 @@
 import React from 'react'
 import { AiFillHtml5 } from 'react-icons/ai';
-import { BiLogoCss3 } from 'react-icons/bi';
+import { BiLogoCss3, BiLogoJavascript, BiLogoJquery, BiLogoReact } from 'react-icons/bi';
 import { FaBootstrap } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
 import { DiSass } from 'react-icons/di';
-import { BiLogoJavascript } from 'react-icons/bi';
-import { BiLogoJquery } from 'react-icons/bi';
-import { BiLogoReact } from 'react-icons/bi';
-import '../Styles/SkillsIconsDetails.css';
 
 function SkillsIconsDetails() {
   return (

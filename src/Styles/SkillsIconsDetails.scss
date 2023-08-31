@@ -31,7 +31,8 @@
             top: 0;
             bottom: 0;
             width: 100%;
-            transition: 0.5s ease-in-out;
+            clip-path: circle(20% at 0% 0%);
+            transition: clip-path 0.5s ease-in-out;
 
             .icon-title {
                 color:rgba($text-white, 0.7);
@@ -54,9 +55,10 @@
                 }
             }
         }
+        
 
-        .icon-details:hover .icon-details{
-            left: 0;
+        &:hover .icon-details {
+            clip-path: (75%);
         }
     }
 

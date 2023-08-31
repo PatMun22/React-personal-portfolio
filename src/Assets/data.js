@@ -104,3 +104,46 @@ export const projects = [
     techStacks: ["HTML5", "Sass", "JavaScript"]
   }
 ]
+
+export const skills = [
+  {
+    skillIcon: "AiFillHtml5",
+    skillName: "HTML5",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "BiLogoCss3",
+    skillName: "CSS3",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "FaBootstrap",
+    skillName: "BOOTSRAP",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "SiTailwindcss",
+    skillName: "TAILWIND CSS",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "DiSass",
+    skillName: "SASS",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "BiLogoJavascrip",
+    skillName: "JAVASCRIPT",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "BiLogoJquery",
+    skillName: "JQUERY",
+    experienceRating: ''
+  },
+  {
+    skillIcon: "BiLogoReact",
+    skillName: "REACT.JS",
+    experienceRating: ''
+  }
+]

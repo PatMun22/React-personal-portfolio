@@ -28,6 +28,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 1em;
+  aspect-ratio: 1/1;
 }
 .project-details-container .project-container .project-details h3 {
   text-align: center;

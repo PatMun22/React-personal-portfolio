@@ -1,6 +1,9 @@
 import React from 'react'
 import { projects } from '../Assets/data';
 import '../Styles/ProjectsDetails.css';
+import { AiFillGithub } from 'react-icons/ai';
+import { FiExternalLink } from 'react-icons/fi';
+import '../Styles/SkillsIconsDetails.css';
 
 
 const ProjectsDetails = () => {
@@ -22,7 +25,7 @@ const ProjectsDetails = () => {
                     rel='noreferrer' 
                     className='github-link'
                   >
-                    See code<span>{project.githubIcon}</span>
+                    See code<span><AiFillGithub /></span>
                   </a>
                   <a 
                     href={project.live}
@@ -30,7 +33,7 @@ const ProjectsDetails = () => {
                     rel='noreferrer' 
                     className='live-link'
                   >
-                    <span>{project.liveLink}</span>Visit site
+                    <span><FiExternalLink /></span>Visit site
                   </a>
                 </div>
               </div>
