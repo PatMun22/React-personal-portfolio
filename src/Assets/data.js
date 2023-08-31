@@ -1,7 +1,3 @@
-//import { GoHome } from 'react-icons/go';
-//import { AiOutlineUser, AiOutlineCopy, AiOutlineMessage, AiFillGithub } from 'react-icons/ai';
-//import { BsCodeSlash } from 'react-icons/bs';
-//import { FiExternalLink } from 'react-icons/fi';
 import ELW from '../images/E-learningApp.PNG';
 import Cart from '../images/CartApp.PNG';
 import CV from '../images/CVApp.PNG';
@@ -51,7 +47,7 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://patmun22.github.io/E-Learning-website/",
     liveLink: "FiExternalLink",
-    techStacks: ["HTML5", "CSS3", "JavaScript"]
+    techStacks: [{first: "HTML5"}, {first:"CSS3"}, {first:"JavaScript"}]
   },
   {
     id: 2,
