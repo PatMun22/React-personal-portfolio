@@ -1,42 +1,47 @@
-import ELW from '../images/E-learningApp.PNG';
-import Cart from '../images/CartApp.PNG';
-import CV from '../images/CVApp.PNG';
-import Calculator from '../images/AgeClculatorApp.PNG';
-import form from '../images/Loginform.PNG';
-import notes from '../images/NotesApp.PNG';
+import ELW from "../images/E-learningApp.PNG";
+import Cart from "../images/CartApp.PNG";
+import CV from "../images/CVApp.PNG";
+import Calculator from "../images/AgeClculatorApp.PNG";
+import form from "../images/Loginform.PNG";
+import notes from "../images/NotesApp.PNG";
 
 export const linkDatas = [
   {
     id: 1,
     linkID: "home",
+    linkUrl: "#home",
     linkName: "Home",
-    linkIcon: "GoHome"
+    linkIcon: "GoHome",
   },
   {
     id: 2,
     linkID: "about",
+    linkUrl: "#about",
     linkName: "About",
-    linkIcon: "AiOutlineUser"
+    linkIcon: "AiOutlineUser",
   },
   {
     id: 3,
     linkID: "skills",
+    linkUrl: "#skills",
     linkName: "Skills",
-    linkIcon: "BsCodeSlash"
+    linkIcon: "BsCodeSlash",
   },
   {
     id: 4,
     linkID: "projects",
+    linkUrl: "#projects",
     linkName: "Projects",
-    linkIcon: "AiOutlineCopy"
+    linkIcon: "AiOutlineCopy",
   },
   {
     id: 5,
     linkID: "contacts",
+    linkUrl: "#contacts",
     linkName: "Contacts",
-    linkIcon: "AiOutlineMessage"
-  }
-]
+    linkIcon: "AiOutlineMessage",
+  },
+];
 
 export const projects = [
   {
@@ -47,7 +52,7 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://patmun22.github.io/E-Learning-website/",
     liveLink: "FiExternalLink",
-    techStacks: [{first: "HTML5"}, {first:"CSS3"}, {first:"JavaScript"}]
+    techStacks: ["HTML5", "CSS3", "JavaScript"],
   },
   {
     id: 2,
@@ -57,7 +62,7 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://chinookz-react-notes-app.netlify.app/",
     liveLink: "FiExternalLink",
-    techStacks: ["Sass", "React.js"]
+    techStacks: ["Sass", "React.js"],
   },
   {
     id: 3,
@@ -67,7 +72,7 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://first-react-cart-app.netlify.app/",
     liveLink: "FiExternalLink",
-    techStacks: ["Bootstrap", "React.js"]
+    techStacks: ["Bootstrap", "React.js"],
   },
   {
     id: 4,
@@ -77,7 +82,7 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://registration-login-form-with-js.netlify.app/",
     liveLink: "FiExternalLink",
-    techStacks: ["HTML5", "CSS3", "JavaScript"]
+    techStacks: ["HTML5", "CSS3", "JavaScript"],
   },
   {
     id: 5,
@@ -87,7 +92,7 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://patmun22.github.io/Age-Calculator/",
     liveLink: "FiExternalLink",
-    techStacks: ["HTML5", "CSS3", "JavaScript"]
+    techStacks: ["HTML5", "CSS3", "JavaScript"],
   },
   {
     id: 6,
@@ -97,49 +102,49 @@ export const projects = [
     githubIcon: "AiFillGithub",
     live: "https://patmun22.github.io/CV-using-Sass-and-Js/",
     liveLink: "FiExternalLink",
-    techStacks: ["HTML5", "Sass", "JavaScript"]
-  }
-]
+    techStacks: ["HTML5", "Sass", "JavaScript"],
+  },
+];
 
 export const skills = [
   {
     skillIcon: "AiFillHtml5",
     skillName: "HTML5",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "BiLogoCss3",
     skillName: "CSS3",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "FaBootstrap",
     skillName: "BOOTSRAP",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "SiTailwindcss",
     skillName: "TAILWIND CSS",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "DiSass",
     skillName: "SASS",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "BiLogoJavascrip",
     skillName: "JAVASCRIPT",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "BiLogoJquery",
     skillName: "JQUERY",
-    experienceRating: ''
+    experienceRating: "",
   },
   {
     skillIcon: "BiLogoReact",
     skillName: "REACT.JS",
-    experienceRating: ''
-  }
-]
+    experienceRating: "",
+  },
+];
