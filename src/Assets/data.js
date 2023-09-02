@@ -108,43 +108,35 @@ export const projects = [
 
 export const skills = [
   {
-    skillIcon: "AiFillHtml5",
     skillName: "HTML5",
-    experienceRating: "",
+    experienceRating: "90%",
   },
   {
-    skillIcon: "BiLogoCss3",
     skillName: "CSS3",
-    experienceRating: "",
+    experienceRating: "85%",
   },
   {
-    skillIcon: "FaBootstrap",
     skillName: "BOOTSRAP",
-    experienceRating: "",
+    experienceRating: "70%",
   },
   {
-    skillIcon: "SiTailwindcss",
     skillName: "TAILWIND CSS",
-    experienceRating: "",
+    experienceRating: "70%",
   },
   {
-    skillIcon: "DiSass",
     skillName: "SASS",
-    experienceRating: "",
+    experienceRating: "80%",
   },
   {
-    skillIcon: "BiLogoJavascrip",
     skillName: "JAVASCRIPT",
-    experienceRating: "",
+    experienceRating: "85%",
   },
   {
-    skillIcon: "BiLogoJquery",
     skillName: "JQUERY",
-    experienceRating: "",
+    experienceRating: "65%",
   },
   {
-    skillIcon: "BiLogoReact",
     skillName: "REACT.JS",
-    experienceRating: "",
+    experienceRating: "70%",
   },
 ];

@@ -10,7 +10,9 @@ const Search = () => {
     setValue(e.target.value);
   };
 
-  const onSearch = (searchTerm) => {};
+  const onSearch = (searchTerm) => {
+    searchTerm.toLowerCase().filter(() => value.toLowerCase());
+  };
 
   return (
     <div className="search">

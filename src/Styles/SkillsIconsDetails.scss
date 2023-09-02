@@ -15,6 +15,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: all .5s ease-in-out;
 
         .icon {
             color: rgba($text-white, 0.7);
@@ -31,7 +32,7 @@
             top: 0;
             bottom: 0;
             width: 100%;
-            clip-path: circle(20% at 0% 0%);
+            clip-path: circle(10% at 0% 0%);
             transition: clip-path 0.5s ease-in-out;
 
             .icon-title {
@@ -54,10 +55,20 @@
                     border-radius: inherit;
                 }
             }
+
+            span {
+                color: rgba($text-white, 0.4);
+                display: block;
+                margin-top: 1rem;
+            }
         }
         
-        &:hover .icon-details {
-            clip-path: (75%);
+        &:hover {
+            transform: scale(1.05);
+        
+            .icon-details {
+                clip-path: circle(70%);
+            }
         }
     }
 

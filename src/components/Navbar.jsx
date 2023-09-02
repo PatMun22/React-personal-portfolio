@@ -19,22 +19,21 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <ul>
-        {linkDatas &&
-          linkDatas.map((linkData, index) => {
-            const Icon = icons[index];
-            return (
-              <li key={index}>
-                <a
-                  href={linkData.linkUrl}
-                  className={activeLink === index && "active"}
-                  onClick={() => setActiveLink(index)}
-                >
-                  <span>{linkData.linkName}</span>
-                  <Icon className="nav-icon" />
-                </a>
-              </li>
-            );
-          })}
+        {linkDatas.map((linkData, index) => {
+          const Icon = icons[index];
+          return (
+            <li key={index}>
+              <a
+                href={linkData.linkUrl}
+                className={activeLink === index && "active"}
+                onClick={() => setActiveLink(index)}
+              >
+                <span>{linkData.linkName}</span>
+                <Icon className="nav-icon" />
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

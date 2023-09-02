@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s ease-in-out;
 }
 .skills-icon-container .icon-container .icon {
   color: rgba(240, 245, 242, 0.7);
@@ -29,8 +30,8 @@
   top: 0;
   bottom: 0;
   width: 100%;
-  -webkit-clip-path: circle(20% at 0% 0%);
-          clip-path: circle(20% at 0% 0%);
+  -webkit-clip-path: circle(10% at 0% 0%);
+          clip-path: circle(10% at 0% 0%);
   transition: -webkit-clip-path 0.5s ease-in-out;
   transition: clip-path 0.5s ease-in-out;
   transition: clip-path 0.5s ease-in-out, -webkit-clip-path 0.5s ease-in-out;
@@ -53,7 +54,15 @@
   background-color: rgba(240, 245, 242, 0.4);
   border-radius: inherit;
 }
+.skills-icon-container .icon-container .icon-details span {
+  color: rgba(240, 245, 242, 0.4);
+  display: block;
+  margin-top: 1rem;
+}
+.skills-icon-container .icon-container:hover {
+  transform: scale(1.05);
+}
 .skills-icon-container .icon-container:hover .icon-details {
-  -webkit-clip-path: 75%;
-          clip-path: 75%;
+  -webkit-clip-path: circle(70%);
+          clip-path: circle(70%);
 }
