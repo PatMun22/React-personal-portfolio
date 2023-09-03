@@ -8,7 +8,6 @@
 .project-details-container .project-container {
   padding: 1rem;
   border-radius: 1em;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   display: flex;
   flex-direction: column;

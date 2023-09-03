@@ -1,14 +1,14 @@
-import React from 'react'
-import '../Styles/FooterLinks.css';
+import React from "react";
+import "../Styles/FooterLinks.css";
 
 const FooterLinks = () => {
   return (
-    <div className='footer-links'>
-      <a href='#home'>Home</a>
-      <a href='#about'>About</a>
-      <div className='footer-skills'>
-        <a href='#skills'>Skills</a>
-        <div className='footer-specific-skills'>
+    <article className="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <div className="footer-skills">
+        <a href="#skills">Skills</a>
+        <div className="footer-specific-skills">
           <ul>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -21,9 +21,9 @@ const FooterLinks = () => {
           </ul>
         </div>
       </div>
-      <div className='footer-projects'>
-        <a href='#projects'>Projects</a>
-        <div className='footer-specific-projects'>
+      <div className="footer-projects">
+        <a href="#projects">Projects</a>
+        <div className="footer-specific-projects">
           <ul>
             <li>E-Learning Website</li>
             <li>React Note App</li>
@@ -34,9 +34,9 @@ const FooterLinks = () => {
           </ul>
         </div>
       </div>
-      <a href='#contacts'>Contacts</a>
-    </div>
-  )
+      <a href="#contacts">Contacts</a>
+    </article>
+  );
 };
 
 export default FooterLinks;

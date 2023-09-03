@@ -17,7 +17,7 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState(0);
 
   return (
-    <div className="navbar">
+    <Navbar className="navbar">
       <ul>
         {linkDatas.map((linkData, index) => {
           const Icon = icons[index];
@@ -35,7 +35,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-    </div>
+    </Navbar>
   );
 };
 

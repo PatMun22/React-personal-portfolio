@@ -7,7 +7,7 @@ import "../Styles/SkillsIconsDetails.css";
 
 const ProjectsDetails = () => {
   return (
-    <div className="project-details-container">
+    <article className="project-details-container">
       {projects.map((project, id) => {
         return (
           <div className="project-container" key={id}>
@@ -53,7 +53,7 @@ const ProjectsDetails = () => {
           </div>
         );
       })}
-    </div>
+    </article>
   );
 };
 

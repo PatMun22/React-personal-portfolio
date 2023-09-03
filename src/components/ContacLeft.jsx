@@ -5,7 +5,7 @@ import "../Styles/ContactLeft.css";
 
 const ContacLeft = () => {
   return (
-    <div className="contact-left">
+    <article className="contact-left">
       <div className="left-contact-container">
         <BiLogoGmail className="contact-icon" />
         <h1>Email</h1>
@@ -30,7 +30,7 @@ const ContacLeft = () => {
           Send a message
         </a>
       </div>
-    </div>
+    </article>
   );
 };
 

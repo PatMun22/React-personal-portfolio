@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import {
   BiLogoCss3,
   BiLogoJavascript,
@@ -9,6 +9,7 @@ import {
 import { FaBootstrap } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { DiSass } from "react-icons/di";
+import { BsGit } from "react-icons/bs";
 import { skills } from "../Assets/data";
 
 const skillsIcons = [
@@ -20,6 +21,8 @@ const skillsIcons = [
   BiLogoJavascript,
   BiLogoJquery,
   BiLogoReact,
+  AiFillGithub,
+  BsGit,
 ];
 
 function SkillsIconsDetails() {
@@ -36,7 +39,7 @@ function SkillsIconsDetails() {
                 <div
                   className="skill-rating"
                   style={{ width: skill.experienceRating }}
-                ></div>{" "}
+                ></div>
                 <span style={{ marginLeft: skill.experienceRating }}>
                   {skill.experienceRating}
                 </span>

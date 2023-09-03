@@ -139,4 +139,12 @@ export const skills = [
     skillName: "REACT.JS",
     experienceRating: "70%",
   },
+  {
+    skillName: "GitHub",
+    experienceRating: "80%",
+  },
+  {
+    skillName: "Git",
+    experienceRating: "70%",
+  },
 ];

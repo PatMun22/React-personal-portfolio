@@ -10,12 +10,12 @@ const Search = () => {
     setValue(e.target.value);
   };
 
-  const onSearch = (searchTerm) => {
-    searchTerm.toLowerCase().filter(() => value.toLowerCase());
-  };
+  const onClick = () => {};
+
+  const onSearch = (searchTerm) => {};
 
   return (
-    <div className="search">
+    <article className="search">
       <form>
         <BsSearch className="search-icon" />
         <input
@@ -24,11 +24,11 @@ const Search = () => {
           placeholder="Search..."
           onChange={onChange}
         />
-        <button className="btn" type="button" onClick={onSearch}>
-          <BsFillArrowRightCircleFill className="btn-icon" />
+        <button className="btn" type="button" onClick={() => onSearch(value)}>
+          <BsFillArrowRightCircleFill className="btn-icon" onClick={onClick} />
         </button>
       </form>
-    </div>
+    </article>
   );
 };
 

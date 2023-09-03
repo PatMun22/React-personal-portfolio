@@ -30,8 +30,8 @@
   top: 0;
   bottom: 0;
   width: 100%;
-  -webkit-clip-path: circle(10% at 0% 0%);
-          clip-path: circle(10% at 0% 0%);
+  -webkit-clip-path: circle(3% at 0% 0%);
+          clip-path: circle(3% at 0% 0%);
   transition: -webkit-clip-path 0.5s ease-in-out;
   transition: clip-path 0.5s ease-in-out;
   transition: clip-path 0.5s ease-in-out, -webkit-clip-path 0.5s ease-in-out;
