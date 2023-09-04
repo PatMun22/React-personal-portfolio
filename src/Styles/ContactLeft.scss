@@ -10,6 +10,7 @@
     margin: 2rem 0;
 
     .left-contact-container {
+        width: -moz-fit-content;
         width: fit-content;
         background-color: transparent;
         padding: 5px 15px;
@@ -47,6 +48,7 @@
 
         a {
             background: $header-hero-bg;
+            width: -moz-fit-content;
             width: fit-content;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba($text-white, 0.2);

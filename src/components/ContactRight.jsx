@@ -42,7 +42,7 @@ const ContactRight = () => {
   };
 
   return (
-    <article className="contact-right">
+    <div className="contact-right">
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
         <input
           type="text"
@@ -73,7 +73,7 @@ const ContactRight = () => {
           Send Message
         </button>
       </form>
-    </article>
+    </div>
   );
 };
 
