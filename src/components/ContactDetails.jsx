@@ -5,10 +5,10 @@ import ContactRight from "./ContactRight";
 
 const ContactDetails = () => {
   return (
-    <div className="contact-details">
+    <article className="contact-details">
       <ContacLeft />
       <ContactRight />
-    </div>
+    </article>
   );
 };
 

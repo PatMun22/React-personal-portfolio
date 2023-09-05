@@ -3,7 +3,6 @@ import { projects } from "../Assets/data";
 import "../Styles/ProjectsDetails.css";
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
-import "../Styles/SkillsIconsDetails.css";
 
 const ProjectsDetails = () => {
   return (

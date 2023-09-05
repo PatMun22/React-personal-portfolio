@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/SkillsIconsDetails.css";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import {
   BiLogoCss3,
@@ -27,11 +28,11 @@ const skillsIcons = [
 
 function SkillsIconsDetails() {
   return (
-    <div className="skills-icon-container">
+    <article className="skills-icon-container">
       {skills.map((skill, index) => {
         const SkillsIcons = skillsIcons[index];
         return (
-          <div className="icon-container">
+          <div className="icon-container" key={index}>
             <SkillsIcons className="icon" />
             <div className="icon-details">
               <h3 className="icon-title">{skill.skillName}</h3>
@@ -48,7 +49,7 @@ function SkillsIconsDetails() {
           </div>
         );
       })}
-    </div>
+    </article>
   );
 }
 
