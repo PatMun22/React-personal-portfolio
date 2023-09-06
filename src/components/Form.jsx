@@ -37,6 +37,11 @@ const Form = () => {
           console.log(error.text);
         }
       );
+    setData({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
@@ -44,7 +49,7 @@ const Form = () => {
       <input
         type="text"
         name="name"
-        value={data}
+        value={data.name}
         onChange={handleChange}
         placeholder="your full name"
         required
@@ -52,7 +57,7 @@ const Form = () => {
       <input
         type="email"
         name="email"
-        value={data}
+        value={data.email}
         onChange={handleChange}
         placeholder="your email address"
         required
@@ -61,11 +66,11 @@ const Form = () => {
         name="message"
         id="textarea-message"
         rows="10"
-        value={data}
+        value={data.message}
         onChange={handleChange}
         placeholder="Enter your message..."
         required
-      ></textarea>
+      />
       <button type="submit" className="submit-form">
         Send Message
       </button>

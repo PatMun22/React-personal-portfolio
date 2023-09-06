@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&display=swap");
 .search {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .search form {
   display: flex;
@@ -22,11 +24,10 @@
   border: 1.5px solid #50D484;
   padding: 8px 50px;
   border-radius: 5px 0 0 5px;
-  position: relative;
   outline: none;
   font-size: 20px;
   color: #F0F5F2;
-  background-color: inherit;
+  background-color: transparent;
 }
 .search form ::-moz-placeholder {
   color: #F0F5F2;

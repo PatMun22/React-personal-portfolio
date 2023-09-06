@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .header {
+  s .header {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;

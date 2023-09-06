@@ -25,7 +25,7 @@ const Navbar = () => {
             <li key={index}>
               <a
                 href={linkData.linkUrl}
-                className={activeLink === index && "active"}
+                className={activeLink === index ? "active" : ""}
                 onClick={() => setActiveLink(index)}
               >
                 <span>{linkData.linkName}</span>
