@@ -82,26 +82,31 @@
   text-transform: capitalize;
   color: #F0F5F2;
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a {
   text-decoration: none;
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a .social-icons {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a .social-icons {
   font-size: 30px;
   transition: 0.3s ease-in-out;
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a .social-icons:hover {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a .social-icons:hover {
   transform: translateY(-5px);
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a:nth-of-type(1) .social-icons {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a:nth-of-type(1) .social-icons {
   color: black;
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a:nth-of-type(2) .social-icons {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a:nth-of-type(2) .social-icons {
   color: rgb(51, 47, 245);
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a:nth-of-type(3) .social-icons {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a:nth-of-type(3) .social-icons {
   color: rgba(46, 43, 241, 0.911);
 }
-.hero-container .hero-left .hero-left-buttons .icons-div a:nth-of-type(4) .social-icons {
+.hero-container .hero-left .hero-left-buttons .icons-div .icons-container a:nth-of-type(4) .social-icons {
   color: rgba(149, 7, 161, 0.911);
 }
 .hero-container .hero-right {
@@ -150,5 +155,16 @@
   }
   .hero-container .hero-left p {
     text-align: justify;
+  }
+  .hero-container .hero-left .icons-div {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .hero-container .hero-left .icons-div .icons-container {
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
   }
 }

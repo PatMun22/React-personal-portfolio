@@ -51,6 +51,18 @@ form .submit-form {
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+form .errorMessage {
+  color: rgb(226, 23, 23);
+  font-size: 12px;
+  margin-top: -1rem;
+  display: none;
+}
+form .successMessage {
+  color: rgb(2, 109, 2);
+  font-size: 12px;
+  margin-top: -1rem;
+  display: none;
+}
 form .submit-form:hover {
   background-color: rgba(16, 21, 37, 0.8);
   box-shadow: 0px 0px 3px rgba(240, 245, 242, 0.6);

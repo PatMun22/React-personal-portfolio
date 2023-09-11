@@ -96,40 +96,46 @@
                     color: $text-white;
                 }
 
-                a{
-                    text-decoration: none;
+                .icons-container {
+                    display: flex;
+                    align-items: center;
+                    gap: 1.5rem;
 
-                    .social-icons {
-                        font-size: 30px;
-                        transition: .3s ease-in-out;
+                    a{
+                        text-decoration: none;
+    
+                        .social-icons {
+                            font-size: 30px;
+                            transition: .3s ease-in-out;
+                        }
+    
+                        .social-icons:hover {
+                            transform: translateY(-5px);
+                        }
                     }
-
-                    .social-icons:hover {
-                        transform: translateY(-5px);
+    
+                    a:nth-of-type(1) {
+                        .social-icons {
+                            color: black;
+                        }
                     }
-                }
-
-                a:nth-of-type(1) {
-                    .social-icons {
-                        color: black;
+    
+                    a:nth-of-type(2) {
+                        .social-icons {
+                            color: rgb(51, 47, 245);
+                        }
                     }
-                }
-
-                a:nth-of-type(2) {
-                    .social-icons {
-                        color: rgb(51, 47, 245);
+    
+                    a:nth-of-type(3) {
+                        .social-icons {
+                            color: rgba(46, 43, 241, 0.911);
+                        }
                     }
-                }
-
-                a:nth-of-type(3) {
-                    .social-icons {
-                        color: rgba(46, 43, 241, 0.911);
-                    }
-                }
-
-                a:nth-of-type(4) {
-                    .social-icons {
-                        color: rgba(149, 7, 161, 0.911);
+    
+                    a:nth-of-type(4) {
+                        .social-icons {
+                            color: rgba(149, 7, 161, 0.911);
+                        }
                     }
                 }
             }
@@ -190,6 +196,19 @@
 
             p{
                 text-align: justify;
+            }
+
+            .icons-div {
+                display: flex;
+                align-items: center;
+                gap: 0;
+                margin-top: 0;
+                flex-direction: column;
+
+                .icons-container {
+                    margin-top: -1.5rem;
+                    margin-bottom: 1rem;
+                }
             }
         }
     }

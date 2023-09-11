@@ -12,6 +12,21 @@ import { SiTailwindcss } from "react-icons/si";
 import { DiSass } from "react-icons/di";
 import { BsGit } from "react-icons/bs";
 import { skills } from "../Assets/data";
+import { motion } from "framer-motion";
+
+const skillsAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05 * index,
+    },
+  }),
+};
 
 const skillsIcons = [
   AiFillHtml5,
@@ -32,7 +47,17 @@ function SkillsIconsDetails() {
       {skills.map((skill, index) => {
         const SkillsIcons = skillsIcons[index];
         return (
-          <div className="icon-container" key={index}>
+          <motion.div
+            className="icon-container"
+            key={index}
+            variants={skillsAnimationVariants}
+            initial="initial"
+            animate="animate"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+          >
             <SkillsIcons className="icon" />
             <div className="icon-details">
               <h3 className="icon-title">{skill.skillName}</h3>
@@ -46,7 +71,7 @@ function SkillsIconsDetails() {
                 </span>
               </div>
             </div>
-          </div>
+          </motion.div>
         );
       })}
     </article>

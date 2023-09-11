@@ -50,6 +50,20 @@ form {
         transition: .5s ease-in-out;
     }
 
+    .errorMessage {
+        color: rgb(226, 23, 23);
+        font-size: 12px;
+        margin-top: -1rem;
+        display: none;
+    }
+
+    .successMessage {
+        color: rgb(2, 109, 2);
+        font-size: 12px;
+        margin-top: -1rem;
+        display: none;
+    }
+
     .submit-form:hover {
         background-color: rgba($light-bg, 0.8);
         box-shadow: 0px 0px 3px rgba($text-white, 0.6);

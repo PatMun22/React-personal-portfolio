@@ -4,6 +4,7 @@ import { linkDatas } from "../Assets/data";
 import { GoHome } from "react-icons/go";
 import { AiOutlineUser, AiOutlineCopy, AiOutlineMessage } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 const icons = [
   GoHome,
@@ -17,7 +18,18 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState(0);
 
   return (
-    <nav className="navbar">
+    <motion.nav
+      className="navbar"
+      // variants={
+      //   {
+      //        hidden: { opacity: 0, y: "100px" },
+      //        reveal: { opacity: 1, y: 0 },
+      //   }
+      // }
+      // initial="hidden"
+      // animate="reveal"
+      // transition={{ duration: 1, bounce: 0.5, type: "spring" }}
+    >
       <ul>
         {linkDatas.map((linkData, index) => {
           const Icon = icons[index];
@@ -35,7 +47,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-    </nav>
+    </motion.nav>
   );
 };
 

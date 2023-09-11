@@ -37,6 +37,7 @@ const Form = () => {
           console.log(error.text);
         }
       );
+
     setData({
       name: "",
       email: "",
@@ -54,6 +55,9 @@ const Form = () => {
         placeholder="your full name"
         required
       />
+      <span className="errorMessage">
+        Provide at least a first name and a surname
+      </span>
       <input
         type="email"
         name="email"
@@ -62,6 +66,7 @@ const Form = () => {
         placeholder="your email address"
         required
       />
+      <span className="errorMessage">Invalid email address</span>
       <textarea
         name="message"
         id="textarea-message"
@@ -71,7 +76,17 @@ const Form = () => {
         placeholder="Enter your message..."
         required
       />
-      <button type="submit" className="submit-form">
+      <span className={data.message === "" ? "errorMessage" : ""}>
+        Message cannot be empty
+      </span>
+      <span className="successMessage">Message sent successfully</span>
+      <button
+        type="submit"
+        className="submit-form"
+        onClick={() => {
+          alert("Your message sent");
+        }}
+      >
         Send Message
       </button>
     </form>
