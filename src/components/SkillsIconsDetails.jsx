@@ -14,19 +14,19 @@ import { BsGit } from "react-icons/bs";
 import { skills } from "../Assets/data";
 import { motion } from "framer-motion";
 
-const skillsAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.05 * index,
-    },
-  }),
-};
+// const skillsAnimationVariants = {
+//   initial: {
+//     opacity: 0,
+//     y: 100,
+//   },
+//   animate: (index) => ({
+//     opacity: 1,
+//     y: 0,
+//     transition: {
+//       delay: 0.05 * index,
+//     },
+//   }),
+// };
 
 const skillsIcons = [
   AiFillHtml5,
@@ -50,12 +50,25 @@ function SkillsIconsDetails() {
           <motion.div
             className="icon-container"
             key={index}
-            variants={skillsAnimationVariants}
-            initial="initial"
-            animate="animate"
-            whileInView="animate"
-            viewport={{
-              once: true,
+            // variants={skillsAnimationVariants}
+            // initial="initial"
+            // animate="animate"
+            // whileInView="animate"
+            // viewport={{
+            //   once: true,
+            // }}
+
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              reveal: { opacity: 1, y: 0 },
+            }}
+            initial="hidden"
+            animate="reveal"
+            transition={{
+              type: "spring",
+              duration: 2,
+              bounce: 0.3,
+              delay: 0.5,
             }}
           >
             <SkillsIcons className="icon" />

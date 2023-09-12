@@ -1,9 +1,24 @@
 import React from "react";
 import "../Styles/FooterLinks.css";
+import { motion } from "framer-motion";
 
 const FooterLinks = () => {
   return (
-    <article className="footer-links">
+    <motion.article
+      className="footer-links"
+      variants={{
+        hidden: { opacity: 0, x: 300 },
+        reveal: { opacity: 1, x: 0 },
+      }}
+      initial="hidden"
+      animate="reveal"
+      transition={{
+        type: "spring",
+        duration: 2,
+        bounce: 0.3,
+        delay: 0.2,
+      }}
+    >
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <div className="footer-skills">
@@ -35,7 +50,7 @@ const FooterLinks = () => {
         </div>
       </div>
       <a href="#contacts">Contacts</a>
-    </article>
+    </motion.article>
   );
 };
 

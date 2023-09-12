@@ -1,21 +1,64 @@
 import React from "react";
 import PatUlt from "../images/PatUlt.jpg";
 import "../Styles/About.css";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <section className="about" id="about">
-      <article className="about-image-container">
+      <motion.article
+        className="about-image-container"
+        variants={{
+          hidden: { opacity: 0, x: -100 },
+          reveal: { opacity: 1, x: 0 },
+        }}
+        initial="hidden"
+        animate="reveal"
+        transition={{
+          type: "spring",
+          duration: 2,
+          bounce: 0.3,
+          delay: 0.5,
+        }}
+      >
         <img src={PatUlt} alt="about" />
-      </article>
+      </motion.article>
       <article className="about-content">
-        <h1 className="about-title">
+        <motion.h1
+          className="about-title"
+          variants={{
+            hidden: { opacity: 0, x: 100 },
+            reveal: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate="reveal"
+          transition={{
+            type: "spring",
+            duration: 2,
+            bounce: 0.3,
+            delay: 0.5,
+          }}
+        >
           About <span>Me</span>
-        </h1>
-        <p className="about-details">
+        </motion.h1>
+        <motion.p
+          className="about-details"
+          variants={{
+            hidden: { opacity: 0, x: -100 },
+            reveal: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate="reveal"
+          transition={{
+            type: "spring",
+            duration: 2,
+            bounce: 0.3,
+            delay: 0.5,
+          }}
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
           perspiciatis doloremque iusto fuga laudantium voluptates?
-        </p>
+        </motion.p>
       </article>
     </section>
   );

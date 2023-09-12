@@ -12,7 +12,7 @@ const Logo = () => {
     if (isInView) {
       mainControls.start("reveal");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
   return (
     <motion.article
       ref={ref}
