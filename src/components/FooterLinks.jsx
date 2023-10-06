@@ -21,7 +21,7 @@ const FooterLinks = () => {
     >
       <a href="#home">Home</a>
       <a href="#about">About</a>
-      <div className="footer-skills">
+      <article className="footer-skills">
         <a href="#skills">Skills</a>
         <div className="footer-specific-skills">
           <ul>
@@ -35,8 +35,8 @@ const FooterLinks = () => {
             <li>React.js</li>
           </ul>
         </div>
-      </div>
-      <div className="footer-projects">
+      </article>
+      <article className="footer-projects">
         <a href="#projects">Projects</a>
         <div className="footer-specific-projects">
           <ul>
@@ -48,7 +48,7 @@ const FooterLinks = () => {
             <li>Resume App</li>
           </ul>
         </div>
-      </div>
+      </article>
       <a href="#contacts">Contacts</a>
     </motion.article>
   );

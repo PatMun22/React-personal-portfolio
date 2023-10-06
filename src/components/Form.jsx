@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import "../Styles/Form.css";
 import emailjs from "@emailjs/browser";
+import { motion, AnimatePresence } from "framer-motion";
+import { slideAnimation } from "../Assets/motion";
 
 const Form = () => {
   const [data, setData] = useState({
@@ -46,50 +48,55 @@ const Form = () => {
   };
 
   return (
-    <form className="contact-form" ref={form} onSubmit={sendEmail}>
-      <input
-        type="text"
-        name="name"
-        value={data.name}
-        onChange={handleChange}
-        placeholder="your full name"
-        required
-      />
-      <span className="errorMessage">
-        Provide at least a first name and a surname
-      </span>
-      <input
-        type="email"
-        name="email"
-        value={data.email}
-        onChange={handleChange}
-        placeholder="your email address"
-        required
-      />
-      <span className="errorMessage">Invalid email address</span>
-      <textarea
-        name="message"
-        id="textarea-message"
-        rows="10"
-        value={data.message}
-        onChange={handleChange}
-        placeholder="Enter your message..."
-        required
-      />
-      <span className={data.message === "" ? "errorMessage" : ""}>
-        Message cannot be empty
-      </span>
-      <span className="successMessage">Message sent successfully</span>
-      <button
-        type="submit"
-        className="submit-form"
-        onClick={() => {
-          alert("Your message sent");
-        }}
-      >
-        Send Message
-      </button>
-    </form>
+    <AnimatePresence>
+      <form className="contact-form" ref={form} onSubmit={sendEmail}>
+        <motion.input
+          type="text"
+          name="name"
+          value={data.name}
+          onChange={handleChange}
+          placeholder="your full name"
+          required
+          {...slideAnimation("right")}
+        />
+        <span className="errorMessage">
+          Provide at least a first name and a surname
+        </span>
+        <motion.input
+          type="email"
+          name="email"
+          value={data.email}
+          onChange={handleChange}
+          placeholder="your email address"
+          required
+          {...slideAnimation("left")}
+        />
+        <span className="errorMessage">Invalid email address</span>
+        <motion.textarea
+          name="message"
+          id="textarea-message"
+          rows="10"
+          value={data.message}
+          onChange={handleChange}
+          placeholder="Enter your message..."
+          required
+          {...slideAnimation("down")}
+        />
+        <span className={data.message === "" ? "errorMessage" : ""}>
+          Message cannot be empty
+        </span>
+        <span className="successMessage">Message sent successfully</span>
+        <button
+          type="submit"
+          className="submit-form"
+          onClick={() => {
+            alert("Your message sent");
+          }}
+        >
+          Send Message
+        </button>
+      </form>
+    </AnimatePresence>
   );
 };
 

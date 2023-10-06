@@ -1,66 +1,36 @@
 import React from "react";
 import PatUlt from "../images/PatUlt.jpg";
 import "../Styles/About.css";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  slideAnimation,
+  headTextAnimation,
+  headContentAnimation,
+} from "../Assets/motion";
 
 const About = () => {
   return (
-    <section className="about" id="about">
-      <motion.article
-        className="about-image-container"
-        variants={{
-          hidden: { opacity: 0, x: -100 },
-          reveal: { opacity: 1, x: 0 },
-        }}
-        initial="hidden"
-        animate="reveal"
-        transition={{
-          type: "spring",
-          duration: 2,
-          bounce: 0.3,
-          delay: 0.5,
-        }}
-      >
-        <img src={PatUlt} alt="about" />
-      </motion.article>
-      <article className="about-content">
-        <motion.h1
-          className="about-title"
-          variants={{
-            hidden: { opacity: 0, x: 100 },
-            reveal: { opacity: 1, x: 0 },
-          }}
-          initial="hidden"
-          animate="reveal"
-          transition={{
-            type: "spring",
-            duration: 2,
-            bounce: 0.3,
-            delay: 0.5,
-          }}
-        >
-          About <span>Me</span>
-        </motion.h1>
-        <motion.p
-          className="about-details"
-          variants={{
-            hidden: { opacity: 0, x: -100 },
-            reveal: { opacity: 1, x: 0 },
-          }}
-          initial="hidden"
-          animate="reveal"
-          transition={{
-            type: "spring",
-            duration: 2,
-            bounce: 0.3,
-            delay: 0.5,
-          }}
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-          perspiciatis doloremque iusto fuga laudantium voluptates?
-        </motion.p>
-      </article>
-    </section>
+    <AnimatePresence>
+      <section className="about" id="about">
+        <article className="about-image-container">
+          <img src={PatUlt} alt="about" />
+        </article>
+        <motion.article className="about-content" {...slideAnimation("right")}>
+          <motion.h1 className="about-title" {...headContentAnimation}>
+            About <span>Me</span>
+          </motion.h1>
+          <motion.p className="about-details" {...headTextAnimation}>
+            You are looking for a highly adaptable individual, with ability to
+            constantly learn new skills and approaches in the front-end
+            development realm? You want a front-end engineer that is highly
+            flexible and able to respond effectively to working conditions,
+            including letting go of outdated technology? You want an individual
+            that has high time management, organization, collaboration and task
+            prioritization capabilities? I fit these descriptions perfectly.
+          </motion.p>
+        </motion.article>
+      </section>
+    </AnimatePresence>
   );
 };
 
