@@ -1,9 +1,10 @@
 import ELW from "../images/E-learningApp.PNG";
 import Cart from "../images/CartApp.PNG";
-import CV from "../images/CVApp.PNG";
 import Calculator from "../images/AgeClculatorApp.PNG";
 import form from "../images/Loginform.PNG";
 import notes from "../images/NotesApp.PNG";
+import Tolew from "../images/Tolew.PNG";
+import Greenlish from "../images/greenlish.JPG";
 
 export const linkDatas = [
   {
@@ -46,6 +47,26 @@ export const linkDatas = [
 export const projects = [
   {
     id: 1,
+    projectName: "GreenLish E-Commerce Store",
+    imageLink: Greenlish,
+    github: "https://github.com/PatMun22/GreenLish-Ecommerce",
+    githubIcon: "AiFillGithub",
+    live: "https://green-lish-ecommerce.vercel.app/",
+    liveLink: "FiExternalLink",
+    techStacks: ["HTML5", "Sass", "React.js"],
+  },
+  {
+    id: 2,
+    projectName: "Tolew Admin Dashboard",
+    imageLink: Tolew,
+    github: "https://github.com/PatMun22/Chinookz-admin-dashboard",
+    githubIcon: "AiFillGithub",
+    live: "https://tolew-admin-dashboard.vercel.app/",
+    liveLink: "FiExternalLink",
+    techStacks: ["HTML5", "Sass", "React.js", "MUI"],
+  },
+  {
+    id: 3,
     projectName: "E-learning website",
     imageLink: ELW,
     github: "https://github.com/PatMun22/E-Learning-website",
@@ -55,7 +76,7 @@ export const projects = [
     techStacks: ["HTML5", "CSS3", "JavaScript"],
   },
   {
-    id: 2,
+    id: 4,
     projectName: "React Note App",
     imageLink: notes,
     github: "https://github.com/PatMun22/react-note-app",
@@ -65,7 +86,7 @@ export const projects = [
     techStacks: ["Sass", "React.js"],
   },
   {
-    id: 3,
+    id: 5,
     projectName: "React Cart App",
     imageLink: Cart,
     github: "https://github.com/PatMun22/React-cart-app",
@@ -75,17 +96,7 @@ export const projects = [
     techStacks: ["Bootstrap", "React.js"],
   },
   {
-    id: 4,
-    projectName: "Login/Registration Form",
-    imageLink: form,
-    github: "https://github.com/PatMun22/Registration-Login-form-with-JS",
-    githubIcon: "AiFillGithub",
-    live: "https://registration-login-form-with-js.netlify.app/",
-    liveLink: "FiExternalLink",
-    techStacks: ["HTML5", "CSS3", "JavaScript"],
-  },
-  {
-    id: 5,
+    id: 7,
     projectName: "Age Calculator",
     imageLink: Calculator,
     github: "https://github.com/PatMun22/Age-Calculator",
@@ -93,16 +104,6 @@ export const projects = [
     live: "https://patmun22.github.io/Age-Calculator/",
     liveLink: "FiExternalLink",
     techStacks: ["HTML5", "CSS3", "JavaScript"],
-  },
-  {
-    id: 6,
-    projectName: "Resume App",
-    imageLink: CV,
-    github: "https://github.com/PatMun22/CV-using-Sass-and-Js",
-    githubIcon: "AiFillGithub",
-    live: "https://patmun22.github.io/CV-using-Sass-and-Js/",
-    liveLink: "FiExternalLink",
-    techStacks: ["HTML5", "Sass", "JavaScript"],
   },
 ];
 

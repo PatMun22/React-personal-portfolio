@@ -28,7 +28,13 @@ const Form = () => {
       .sendForm(
         "service_8w03d2v",
         "template_lmg8xl8",
-        form.current,
+        {
+          from_name: form.name,
+          to_name: "Patrick Waf ula",
+          from_email: form.email,
+          to_email: "wafulapatrick6@gmail.com",
+          message: form.message,
+        },
         "zzbwKXgAMD_n3wcvf"
       )
       .then(
@@ -39,12 +45,6 @@ const Form = () => {
           console.log(error.text);
         }
       );
-
-    setData({
-      name: "",
-      email: "",
-      message: "",
-    });
   };
 
   return (
@@ -90,6 +90,11 @@ const Form = () => {
           type="submit"
           className="submit-form"
           onClick={() => {
+            setData({
+              name: "",
+              email: "",
+              message: "",
+            });
             alert("Your message sent");
           }}
         >
